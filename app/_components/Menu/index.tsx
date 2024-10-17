@@ -11,7 +11,7 @@ export default function Menu() {
   const open = () => setOpen(true);
   const close = () => setOpen(false);
   return (
-    <div>
+    <div className={styles.container}>
       <nav className={cx(styles.nav, isOpen && styles.open)}>
         <ul className={styles.items}>
           <li>

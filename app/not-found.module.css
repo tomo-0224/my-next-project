@@ -28,7 +28,6 @@
   .text {
     text-align: left;
   }
-
   .container {
     width: calc(100% - 32px);
     margin: -40px auto 0;

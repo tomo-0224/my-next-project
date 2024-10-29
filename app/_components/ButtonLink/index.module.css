@@ -8,7 +8,7 @@
   color: var(--color-text-unpainted);
 }
 
-.butoon:hover {
+.button:hover {
   opacity: 0.9;
 }
 

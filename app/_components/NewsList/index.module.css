@@ -1,11 +1,11 @@
 .list {
-  border-bottom: 1px solid var(--color-border-right);
+  border-bottom: 1px solid var(--color-border-light);
 }
 .list:last-child {
   border-bottom: none;
 }
 
-.limk {
+.link {
   display: flex;
   align-items: flex-start;
   gap: 40px;
@@ -38,6 +38,7 @@
   .image {
     display: none;
   }
+
   .title {
     font-size: 1rem;
     font-weight: bold;

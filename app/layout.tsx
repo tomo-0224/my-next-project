@@ -2,7 +2,6 @@ import "./globals.css";
 import Header from "./_components/header";
 import Footer from "./_components/Footer";
 import { Metadata } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   metadataBase: new URL("http://localhost3000"),
@@ -34,7 +33,6 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
-      <GoogleAnalytics gaId="G-0QJWX1NYJJ" />
     </html>
   );
 }
